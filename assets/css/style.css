@@ -1,5 +1,5 @@
 :root {
-    background-color: #ecf5ff;
+    background-color: #252422;
     font-size: 62.5%;
 }
 
@@ -20,7 +20,7 @@ h4 {
 
 h1 {
     font-size: 5.4rem;
-    color: #56a5eb;
+    color: #CCC5B9;
     margin-bottom: 5rem;
 }
 
@@ -87,16 +87,16 @@ h3 {
     padding: 1rem 0;
     width: 20rem;
     text-align: center;
-    border: 0.1rem solid #56a5eb;
+    border: 0.1rem solid #ffffff;
     margin-bottom: 1rem;
     text-decoration: none;
-    color: #56a5eb;
-    background-color: white;
+    color: #ffffff;
+    background-color: #303030;
 }
   
 .btn:hover {
     cursor: pointer;
-    box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5); 
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(24, 255, 70, 0.549); 
     transform: translateY(-0.1rem);
     transition: transform 150ms;
 }
