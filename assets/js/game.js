@@ -29,7 +29,7 @@ fetch("https://opentdb.com/api.php?amount=10&category=9&difficulty=easy&type=mul
         loadedQuestion.correct_answer);
 
         answerChoices.forEach((choice, index) => {
-            formattedQuestion["choice" + (index+1)] = choice;
+            formattedQuestion["choice" + (index + 1)] = choice;
         });
         
         return formattedQuestion;
@@ -107,7 +107,7 @@ choices.forEach((choice) => {
     });
 });
 
-incrementScore = num => {
+const incrementScore = num => {
     score += num;
     scoreText.innerText = score;
 }
