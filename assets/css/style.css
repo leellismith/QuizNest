@@ -124,7 +124,7 @@ h3 {
     width: 100%;
     font-size: 1.8rem;
     border: 0.1rem solid #eb5f2886;
-    background-color: #ccc5b967;
+    background-color: #252422d9;
 }
 
 .choice-container:hover {
@@ -179,7 +179,7 @@ p.choice-text {
     width: 20rem;
     height: 4rem;
     border: 0.3rem solid #EB5E28;
-    background-color: #ccc5b967;
+    background-color: #252422d9;
     margin-top: 1.5rem;
 }
 
