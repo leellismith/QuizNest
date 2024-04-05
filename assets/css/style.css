@@ -11,6 +11,10 @@
     color: #CCC5B9;
 }
 
+p#progressText {
+    color: #FFFCF2;
+}
+
 h1,
 h2,
 h3,
@@ -20,20 +24,23 @@ h4 {
 
 h1 {
     font-size: 5.4rem;
-    color: #CCC5B9;
+    color: #FFFCF2;
     margin-bottom: 5rem;
 }
 
 h1 > span {
     font-size: 2.4rem;
     font-weight: 500;
+
 }
 
 h2 {
     font-size: 4.2rem;
     margin-bottom: 4rem;
     font-weight: 700;
+    color: #FFFCF2;
 }
+
 
 h3 {
     font-size: 2.8rem;
@@ -87,16 +94,16 @@ h3 {
     padding: 1rem 0;
     width: 20rem;
     text-align: center;
-    border: 0.1rem solid #ffffff;
+    border: 0.1rem solid #ffffff40;
     margin-bottom: 1rem;
     text-decoration: none;
-    color: #ffffff;
-    background-color: #303030;
+    color: #FFFCF2;
+    background-color: #252422d9;;
 }
   
 .btn:hover {
     cursor: pointer;
-    box-shadow: 0 0.4rem 1.4rem 0 rgba(24, 255, 70, 0.549); 
+    box-shadow: 0 0.4rem 1.4rem 0 #eb5f2886; 
     transform: translateY(-0.1rem);
     transition: transform 150ms;
 }
@@ -196,7 +203,7 @@ input {
     padding: 1.5rem;
     font-size: 1.8rem;
     border: none;
-    box-shadow: 0 0.1rem 1.4rem rgba(86, 185, 235, 0.5);
+    box-shadow: 0 0.1rem 1.4rem #eb5f2886;
     color: #252422;
 }
 
@@ -224,7 +231,7 @@ input ::placeholder {
 /*----- Loader  ----- */
 
 #loader {
-    border: 1.6rem solid white;
+    border: 1.6rem solid #ffffff40;
     border-radius: 50%;
     border-top: 1.6rem solid #EB5E28;
     width: 12rem;
