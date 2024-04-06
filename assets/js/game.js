@@ -93,14 +93,19 @@ choices.forEach((choice) => {
         const selectedAnswer = selectedChoice.dataset['number'];
 
         const classToApply = selectedAnswer == currentQuestion.answer ? "correct" : "incorrect";
+        const correctChoice = document.querySelector(`[data-number="${currentQuestion.answer}"]`);           
 
         if (classToApply === 'correct') {
             incrementScore(CORRECT_BONUS);
+        } else {
+            correctChoice.parentElement.classList.add('correct');
         }
+    
 
         selectedChoice.parentElement.classList.add(classToApply);
         setTimeout(() => {
             selectedChoice.parentElement.classList.remove(classToApply);
+            correctChoice.parentElement.classList.remove('correct');
             getNewQuestion();
         }, 1000);
         
