@@ -96,9 +96,9 @@ Fixed bug with the API questions and answers where they where bringing in unwant
 __The Site was deployed via GitHub Pages.__
 
 >1. Go to GitHub.
->2. Find RacingLine repository or [Click Here](https://github.com/leellismith/RacingLine).
->3. Go to settings [Click Here](https://github.com/leellismith/RacingLine/settings).
->4. On the left hand side of the General tab click on Pages [Cllck Here](https://github.com/leellismith/RacingLine/settings/pages).
+>2. Find QuizNest repository or [Click Here]().
+>3. Go to settings [Click Here]().
+>4. On the left hand side of the General tab click on Pages [Cllck Here]().
 >5. In Build and deployment, select Deploy from a branch.
 >6. Then In branch select the Main tab and the /(Root) tab.
 >7. Then click save and wait for the deployment to go live.
@@ -108,7 +108,7 @@ __The Site was deployed via GitHub Pages.__
 ## Gitpod.io Deployment
 
 >1. Go to github.
->2. Find RacingLine repository or [Click Here]().
+>2. Find QuizNest repository or [Click Here]().
 >3. Click on the green <> Code button.
 >4. In the dropdown you will find the HTTP url. Copy that.
 >5. Load up [Gitpod](https://gitpod.io/)
