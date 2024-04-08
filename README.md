@@ -4,6 +4,11 @@
 
 <h2 align="center">Milestone Project 2 - Lee Smith</h2>
 
+
+## <p align='center'>[QuizNest Live Site](https://leellismith.github.io/QuizNest/)
+
+## <p align='center'>[QuizNest Repository](https://github.com/leellismith/QuizNest)
+
 # UXD
 
 # Purpose of the Project
@@ -16,11 +21,66 @@ The website is designed to test the users knowledge.
 
 # User Stories
 
+* As a user, I would like to be able to visit and play a quiz.
+* As a user, I wouuld like to see highscores of the quiz.
+* As a user, I would like to being able to take the quiz with ease.
+* As a user, I would like to see the answer if I got a question wrong.
+* As a user, I would like to website to look good.
+* As a user, I would like to be able to submit my score and view it.
+
 ## Steps to be taken
+
+1. Research websites.
+2. Sketch up designs.
+3. Create wireframes designs.
+4. find mixed content that works together (Colour Scheme, Font Styles and Background).
+5. Find how the content will work together.
+6. Design Website.
+7. Create Website (Using API, HE, Animated background and local storage.)
+8. Test website.
+9. Deploy Website.
 
 # Features
 
+* __Background Image__
+> The animated background was selected to give the website a look of excitment.
+
+* __Play Button__
+> On the home screen you will locate a play button which will take you straight to the game.
+
+* __Highscore Button__
+> Under the Play button you will also locate a Highscore button which will take you to the highscore page which highscores are stored using local storage.
+
+* __Quiz Game__
+> Once you have clicked of the play button, you will be sent straight to the game which will included 10 questions of a random selection from a open API.
+> If a question is answered correct the selected answer will turn green.
+>If a question is answered incorrect the selected answer will turn red but the correct answer will show in green.
+
+* __End Page__
+>When the last question is the quiz is answered, you will be sent to the last page.
+
+* __Save Button__
+> On the last page you will be able to enter a username and save the score to local storage. Once entered you will be sent back to the home page to either play again or view highscores.
+
+* __Play Again Button__
+> If you are unhappy with you score you will be able to press the Play again button and this will send you to a new quiz.
+
+* __Home Button__
+> The home button will send you back to the home page.
+
+* __Footer__
+      
+  >The footer of the page will include links to social media websites
+
 ## Future Features
+
+* Login Option.
+* Server Storage.
+* Leaderboard Page.
+* More Quiz Type Option.
+* To Select More Than 10 Questions.
+* To Select Difficulty.
+
 
 # Typography and Color Scheme
 
