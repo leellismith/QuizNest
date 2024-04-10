@@ -88,11 +88,29 @@ The website is designed to test the users knowledge.
 
 ## Mobile Wireframe
 
+![Mobile Wireframe](readme-docs/wireframes/Mobile%20Wireframe%20-%20P2.JPG)
+
 ## Tablet Wireframe
+
+![Mobile Wireframe](readme-docs/wireframes/Tablet%20Wireframe%20-%20P2.JPG)
 
 ## Desktop Wireframe
 
+![Mobile Wireframe](readme-docs/wireframes/Desktop%20Wireframe%20-%20P2.JPG)
+
 # Technology
+* __HTML__
+* __CSS__
+* __Hover.css__
+* __FlexBox__
+* __Font Awesome__
+* __Google Fonts__
+* __Git__
+* __GitHub__
+* __Figma__
+* __vantajs__
+* __jsdelivr__
+
 
 # Testing
 
@@ -102,12 +120,18 @@ The website is designed to test the users knowledge.
 
 #### __Home Page__
 
+
+
 #### __Game Page__
+
 
 
 #### __End Page__
 
+
+
 #### __Highscore Page__
+
 
 
 #### __CSS Validation__
@@ -116,11 +140,19 @@ The website is designed to test the users knowledge.
 
 ### __Home Page Testing__
 
+![Home Page Testing](readme-docs/testing/Lighthouse%20test%20index%20-%20P2.JPG)
+
 ### __Game Testing__
+
+![Game Page Testing](readme-docs/testing/Lighthouse%20test%20game%20-%20P2.JPG)
 
 ### __End Page Testing__
 
+![Submit Page Testing](readme-docs/testing/Lighthouse%20test%20end%20-%20P2.JPG)
+
 ### __Highscore PageTesting__
+
+![Highscore Page Testing](readme-docs/testing/Lighthouse%20test%20highscore%20-%20P2.JPG)
 
 # Test Cases
 
