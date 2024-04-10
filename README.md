@@ -120,21 +120,23 @@ The website is designed to test the users knowledge.
 
 #### __Home Page__
 
-
+![Home Page Validation](readme-docs/testing/W3V%20Home%20Page%20-%20P2.JPG)
 
 #### __Game Page__
 
-
+![Game Page Validation](readme-docs/testing/W3V%20Game%20Page%20-%20P2.JPG)
 
 #### __End Page__
 
-
+![End Page Validation](readme-docs/testing/W3V%20End%20Page%20-%20P2.JPG)
 
 #### __Highscore Page__
 
-
+![Highscore Page Validation](readme-docs/testing/W3V%20Highscore%20Page%20-%20P2.JPG)
 
 #### __CSS Validation__
+
+![CSS Validation](readme-docs/testing/CSS%20Validation%20-%20P2.JPG)
 
 ### __Lighthouse Testing__
 
