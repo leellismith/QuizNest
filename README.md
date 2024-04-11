@@ -43,30 +43,30 @@ The website is designed to test the users knowledge.
 # Features
 
 * __Background Image__
-> The animated background was selected to give the website a look of excitment.
+  > The animated background was selected to give the website a look of excitment.
 
 * __Play Button__
-> On the home screen you will locate a play button which will take you straight to the game.
+  > On the home screen you will locate a play button which will take you straight to the game.
 
 * __Highscore Button__
-> Under the Play button you will also locate a Highscore button which will take you to the highscore page which highscores are stored using local storage.
+  > Under the Play button you will also locate a Highscore button which will take you to the highscore page which highscores are stored using local storage.
 
 * __Quiz Game__
-> Once you have clicked of the play button, you will be sent straight to the game which will included 10 questions of a random selection from a open API.
-> If a question is answered correct the selected answer will turn green.
->If a question is answered incorrect the selected answer will turn red but the correct answer will show in green.
+  > Once you have clicked of the play button, you will be sent straight to the game which will included 10 questions of a random selection from a open API.
+  > If a question is answered correct the selected answer will turn green.
+  >If a question is answered incorrect the selected answer will turn red but the correct answer will show in green.
 
 * __End Page__
->When the last question is the quiz is answered, you will be sent to the last page.
+  >When the last question is the quiz is answered, you will be sent to the last page.
 
 * __Save Button__
-> On the last page you will be able to enter a username and save the score to local storage. Once entered you will be sent back to the home page to either play again or view highscores.
+  > On the last page you will be able to enter a username and save the score to local storage. Once entered you will be sent back to the home page to either play again or view highscores.
 
 * __Play Again Button__
-> If you are unhappy with you score you will be able to press the Play again button and this will send you to a new quiz.
+  > If you are unhappy with you score you will be able to press the Play again button and this will send you to a new quiz.
 
 * __Home Button__
-> The home button will send you back to the home page.
+  > The home button will send you back to the home page.
 
 * __Footer__
       
@@ -83,6 +83,15 @@ The website is designed to test the users knowledge.
 
 
 # Typography and Color Scheme
+
+The Colour Scheme will include of HEX colours - 
+
+* `#FFFCF2` - White
+* `#CCC5B9` - Grey 
+* `#252422` - Dark Grey
+* `#EB5E28` - Orange
+
+These colours work well together and will make the website clear and visually appealing.
 
 # Wireframes
 
@@ -138,23 +147,37 @@ The website is designed to test the users knowledge.
 
 ![CSS Validation](readme-docs/testing/CSS%20Validation%20-%20P2.JPG)
 
-### __Lighthouse Testing__
+## __Lighthouse Testing__
 
 ### __Home Page Testing__
 
 ![Home Page Testing](readme-docs/testing/Lighthouse%20test%20index%20-%20P2.JPG)
-
+___
 ### __Game Testing__
 
 ![Game Page Testing](readme-docs/testing/Lighthouse%20test%20game%20-%20P2.JPG)
-
+___
 ### __End Page Testing__
 
 ![Submit Page Testing](readme-docs/testing/Lighthouse%20test%20end%20-%20P2.JPG)
-
+___
 ### __Highscore PageTesting__
 
 ![Highscore Page Testing](readme-docs/testing/Lighthouse%20test%20highscore%20-%20P2.JPG)
+
+## __Jshint Testing__
+
+### __Game Page__
+
+![Game Jshint Testing](readme-docs/testing/Game%20jshint%20-%20P2.JPG)
+___
+### __End Page__
+
+![End Page Jshint Testing](readme-docs/testing/End%20jshint%20-%20P2.JPG)
+___
+### __Highscore Page__
+
+![Highscore Jshint Testing](readme-docs/testing/Highscore%20jshint%20-%20P2.JPG)
 
 # Test Cases
 
@@ -179,7 +202,7 @@ The website is designed to test the users knowledge.
 
 Fixed a bug with the score. The score would be added up correctly but when viewed in the highscore page, it would show a correctly random score. I fixed this issue by console logging each section but couldn't not find the issue after doing some research i found that using submit sometimes can change what you are asking it do it so I changed the save from a submit to a button and this has seems to work.
 
-Fixed bug with the API questions and answers where they where bringing in unwanted characters on to the page which made the page look unreadable. I fixed this by added .replace() to each unwanted characters and adding the correct character. After doing this I was still having issues with some text showing these unwanted characters so I spoke with one of my friend Chris Parry who is a software developer who advised me to use https://cdn.jsdelivr.net/npm/he@1.2.0/he.min.js and add that into my code instead of manaual doing it myself. After implementing the issue has now fixed.
+Fixed bug with the API questions and answers where they where bringing in unwanted characters on to the page which made the page look unreadable. I fixed this by added .replace() to each unwanted characters and adding the correct character. After doing this I was still having issues with some text showing these unwanted characters so I spoke with one of my friend Chris Parry who is a software developer who advised me to use https://cdn.jsdelivr.net/npm/he@1.2.0/he.min.js and added that into my code instead of manaual doing it myself. After implementing the CDN the issue did fix.
 
 ### Supported Screens and Browsers
 
@@ -190,9 +213,9 @@ Fixed bug with the API questions and answers where they where bringing in unwant
 __The Site was deployed via GitHub Pages.__
 
 >1. Go to GitHub.
->2. Find QuizNest repository or [Click Here]().
->3. Go to settings [Click Here]().
->4. On the left hand side of the General tab click on Pages [Cllck Here]().
+>2. Find QuizNest repository or [Click Here](https://github.com/leellismith/QuizNest).
+>3. Go to settings [Click Here](https://github.com/leellismith/QuizNest/settings).
+>4. On the left hand side of the General tab click on Pages [Cllck Here](https://github.com/leellismith/QuizNest/settings/pages).
 >5. In Build and deployment, select Deploy from a branch.
 >6. Then In branch select the Main tab and the /(Root) tab.
 >7. Then click save and wait for the deployment to go live.
@@ -202,7 +225,7 @@ __The Site was deployed via GitHub Pages.__
 ## Gitpod.io Deployment
 
 >1. Go to github.
->2. Find QuizNest repository or [Click Here]().
+>2. Find QuizNest repository or [Click Here](https://github.com/leellismith/QuizNest).
 >3. Click on the green <> Code button.
 >4. In the dropdown you will find the HTTP url. Copy that.
 >5. Load up [Gitpod](https://gitpod.io/)
@@ -221,3 +244,13 @@ ___
  >5. Press Enter to create your local clone.
 
  # Credits
+
+ ### __I used the following people, videos and websites in the build of this website.__
+
+#### __Followed [James Q Quick tutorial](https://www.youtube.com/watch?v=rFWbAj40JrQ&list=PLB6wlEeCDJ5Yyh6P2N6Q_9JijB6v4UejF) to help build the foundation of the quiz__
+
+#### __Animated 3D background taken from [Vanta JS](https://www.vantajs.com/)__
+
+#### __API was used from [Open Trivia](https://opentdb.com/api_config.php)__
+
+#### __
