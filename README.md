@@ -4,6 +4,8 @@
 
 <h2 align="center">Milestone Project 2 - Lee Smith</h2>
 
+![Am I Responsive Image](readme-docs/testing/amiresponsive%20-%20P2.JPG)
+
 
 ## <p align='center'>[QuizNest Live Site](https://leellismith.github.io/QuizNest/)
 
@@ -185,14 +187,38 @@ ___
 
 ### Home Page
 
+    When the user first enters the website they will see the animated background and the QuizNest <h1> tag at the center of the page.
+    
+    Below the header the user will find a Play button and and Highscore button.
+
+
+
 
 ### Game Page
+
+    Once the play button has been selected they will then enter the quiz game.
+
+    The user will received a question from the API used and have a selection of 4 answers.
+    If the user answers correctly the selected box will turn green. If the user answers incorrectly 
+    the box will turn red and the correct answer will show up as green.
+
+    The user will have a total of 10 questions to answer.
 
 
 ### End Page
 
+    Once the quiz is finished you will be redirected to the End page of the site.
+
+    Here you will be able to save your score to a local drive. If you do this you will be redirected to the index.html page, to look at your Hichscore or just play again.
+
+    There is also a play again button to give the user another chance to do better or there is a home button for the user to go back to the home page.
+
 
 ### Highscore Page
+
+    When the user has submitted their score they will be able to view this in the Highscore.html page.
+
+    Here the user will be able to view up to 5 top scoring scores.
 
 
 # User Testing
@@ -200,9 +226,9 @@ ___
 
 # Fixed Bugs
 
-Fixed a bug with the score. The score would be added up correctly but when viewed in the highscore page, it would show a correctly random score. I fixed this issue by console logging each section but couldn't not find the issue after doing some research i found that using submit sometimes can change what you are asking it do it so I changed the save from a submit to a button and this has seems to work.
-
-Fixed bug with the API questions and answers where they where bringing in unwanted characters on to the page which made the page look unreadable. I fixed this by added .replace() to each unwanted characters and adding the correct character. After doing this I was still having issues with some text showing these unwanted characters so I spoke with one of my friend Chris Parry who is a software developer who advised me to use https://cdn.jsdelivr.net/npm/he@1.2.0/he.min.js and added that into my code instead of manaual doing it myself. After implementing the CDN the issue did fix.
+    Fixed a bug with the score. The score would be added up correctly but when viewed in the highscore page, it would show a correctly random score. I fixed this issue by console logging each section but couldn't not find the issue after doing some research i found that using submit sometimes can change what you are asking it do it so I changed the save from a submit to a button and this has seems to work.
+---
+    Fixed bug with the API questions and answers where they where bringing in unwanted characters on to the page which made the page look unreadable. I fixed this by added .replace() to each unwanted characters and adding the correct character. After doing this I was still having issues with some text showing these unwanted characters so I spoke with one of my friend Chris Parry who is a software developer who advised me to use https://cdn.jsdelivr.net/npm/he@1.2.0/he.min.js and added that into my code instead of manaual doing it myself. After implementing the CDN the issue did fix.
 
 ### Supported Screens and Browsers
 
