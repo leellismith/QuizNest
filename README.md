@@ -247,10 +247,10 @@ ___
 
  ### __I used the following people, videos and websites in the build of this website.__
 
-#### __Followed [James Q Quick tutorial](https://www.youtube.com/watch?v=rFWbAj40JrQ&list=PLB6wlEeCDJ5Yyh6P2N6Q_9JijB6v4UejF) to help build the foundation of the quiz__
+#### __Followed [James Q Quick tutorial](https://www.youtube.com/watch?v=rFWbAj40JrQ&list=PLB6wlEeCDJ5Yyh6P2N6Q_9JijB6v4UejF) to help build the foundation of the quiz.__
 
-#### __Animated 3D background taken from [Vanta JS](https://www.vantajs.com/)__
+#### __Animated 3D background taken from [Vanta JS](https://www.vantajs.com/).__
 
-#### __API was used from [Open Trivia](https://opentdb.com/api_config.php)__
+#### __API was used from [Open Trivia](https://opentdb.com/api_config.php).__
 
-#### __
+

@@ -247,3 +247,13 @@ input ::placeholder {
         transform: rotate(360deg);
     }
 }
+
+/*----- Footer ----- */
+.info-footer {
+    display: flex;
+    position: absolute;
+    margin-top: 90vh;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
