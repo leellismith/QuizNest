@@ -1,5 +1,5 @@
 :root {
-    background-color: #252422;
+    background-color: #252422; /* Adds colour background as back up */
     font-size: 62.5%;
 }
 
@@ -19,7 +19,7 @@ h1,
 h2,
 h3,
 h4 {
-    margin-bottom: 1rem;
+    margin-bottom: 1rem; /* Gives h1 to h4 a margin bottom */
 }
 
 h1 {
@@ -50,8 +50,8 @@ h3 {
 /*----- Utilities ----- */
 
 .container {
-    width: 100vw;
-    height: 100vh;
+    width: 100vw; /* Sets width to 100% of the viewport */
+    height: 100vh; /* Sets height to 100% of the viewport */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -100,14 +100,15 @@ h3 {
     color: #FFFCF2;
     background-color: #252422d9;;
 }
-  
+
+/* Gives the button a hover style when mouse is on the button */
 .btn:hover {
     cursor: pointer;
     box-shadow: 0 0.4rem 1.4rem 0 #eb5f2886; 
     transform: translateY(-0.1rem);
     transition: transform 150ms;
 }
-  
+/* Change cursor to not-allowed when hovering over a disabled button */
 .btn[disabled]:hover {
     cursor: not-allowed;
     box-shadow: none;
@@ -117,7 +118,7 @@ h3 {
 
 
 /*----- Game Page ----- */
-
+/* Styling for the question answer boxes */
 .choice-container {
     display: flex;
     margin-bottom: 0.5rem;
@@ -127,6 +128,7 @@ h3 {
     background-color: #252422d9;
 }
 
+/* Hover styling for when user points over a answer*/
 .choice-container:hover {
     cursor: pointer;
     box-shadow: 0 0.4rem 1.4rem 0 #eb5f2886; 
@@ -149,10 +151,11 @@ p.choice-text {
     color: #FFFCF2;
 }
 
+/* Correct answer shown in green */
 .correct {
     background-color: #28a745;
 }
-
+/* Incorrect answer shown in red */
 .incorrect {
     background-color: #dc3545;
 }
@@ -175,6 +178,7 @@ p.choice-text {
     text-align: center;
 }
 
+/* Style of the outer progress Bar */
 #progressBar {
     width: 20rem;
     height: 4rem;
@@ -182,7 +186,7 @@ p.choice-text {
     background-color: #252422d9;
     margin-top: 1.5rem;
 }
-
+/* style of the inner progress Bar */
 #progressBarFull {
     height: 3.6rem;
     background-color: #EB5E28;
@@ -190,6 +194,8 @@ p.choice-text {
 }
 
 /*----- Form Style  ----- */
+
+/* Placement of the form */
 form {
     width: 100%;
     display: flex;
@@ -214,22 +220,23 @@ input ::placeholder {
 /*----- High Score Styles  ----- */
 
 #highScoresList {
-    list-style: none;
+    list-style: none; /* Removes the markers(bullet points) */
     padding-left: 0;
     margin-bottom: 4rem;
 }
 
+/* Font size for scores */
 .high-score {
     font-size: 2.8rem;
     margin-bottom: 0.5rem;
 }
 
+/* Increases font size of scores when hovered over */
 .high-score:hover {
     transform: scale(1.025);
 }
 
 /*----- Loader  ----- */
-
 #loader {
     border: 1.6rem solid #ffffff40;
     border-radius: 50%;
@@ -239,6 +246,7 @@ input ::placeholder {
     animation: spin 2s linear infinite;
 }
 
+/* Gives loader animation to spin */
 @keyframes spin {
     0% {
         transform: rotate(0deg);
