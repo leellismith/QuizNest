@@ -13,13 +13,13 @@
 <body>
     <div class="container">
         <div id="end" class="flex-center flex-column">
-            <h1 id="finalScore">0</h1>
-            <form>
+            <h1 id="finalScore">0</h1> <!-- Final Score -->
+            <form> <!-- Form to submit score and save to localStorage-->
                 <input type="text" name="username" id="username" placeholder="username">
                 <button type="button" class="btn" id="saveScoreBtn" onclick="saveHighScore(event)" disabled>Save</button>
             </form>
-            <a href="game.html" class="btn">Play Again</a>
-            <a href="index.html" class="btn">Home</a>
+            <a href="game.html" class="btn">Play Again</a> <!-- Play Again Button-->
+            <a href="index.html" class="btn">Home</a> <!-- Home Button-->
         </div>
         <div class="info-footer">This site was designed by 
             <a href="https://github.com/leellismith/QuizNest" target="_blank">
@@ -28,8 +28,8 @@
         </div>
     </div>
     <script src="assets/js/end.js"></script>
-    <script src="assets/js/bs.js/three.min.js"></script>
-<script src="assets/js/bs.js/vanta.net.min.js"></script>
+    <script src="assets/js/bs.js/three.min.js"></script> <!--Script used to add animated background-->
+<script src="assets/js/bs.js/vanta.net.min.js"></script> <!--Script used to add animated background-->
 <script>
     VANTA.NET({
       el: ":root",
@@ -43,6 +43,6 @@
       color: 0xeb5e2b,
       backgroundColor: 0x252422
     })
-    </script>
+    </script> <!--Script used to add animated background-->
 </body>
 </html>
