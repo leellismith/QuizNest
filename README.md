@@ -218,10 +218,30 @@ ___
 
     When the user has submitted their score they will be able to view this in the Highscore.html page.
 
-    Here the user will be able to view up to 5 top scoring scores.
+    Here the user will be able to view up to top 5 scoring scores.
 
+# Responsivenes Testing
+
+| Case Testing Responsivenes | Result |
+  |---       | ---       |
+  | Quiz responsivenes at max-width: 600px | Passed |
+  | Quiz responsivenes at max-width: 1400px | Passed |
+  | Font responsivenes at max-width: 600px | Passed |
+  
 
 # User Testing
+
+| Users | Results | Fixed Issues |
+|--- |--- |--- |
+| First User | Found issue with the Github link would overlap on smaller screens with larger questions. | Fixed issued by adding Media Query. |
+| Second User | No Issues Found | N/A |
+| Third User | No Issues Found | N/A |
+| Fourth User | No Issues Found | N/A |
+| Fifth User | No Issues Found | N/A |
+
+# Manual Testing
+
+    I used manual testing in the devlopment of this project. I used this to look into every feature and functionality to ensure it was working correctly. The hands on approach allowed me to ensure that this project would meet the requirement while uncover any potential issues straight away. 
 
 
 # Fixed Bugs
@@ -231,6 +251,21 @@ ___
     Fixed bug with the API questions and answers where they where bringing in unwanted characters on to the page which made the page look unreadable. I fixed this by added .replace() to each unwanted characters and adding the correct character. After doing this I was still having issues with some text showing these unwanted characters so I spoke with one of my friend Chris Parry who is a software developer who advised me to use https://cdn.jsdelivr.net/npm/he@1.2.0/he.min.js and added that into my code instead of manaual doing it myself. After implementing the CDN the issue did fix.
 
 ### Supported Screens and Browsers
+
+| Screens | Supported |
+|---|---|
+| Phone | Yes
+| Tablet | Yes |
+| Laptop | Yes |
+| Desktop | Yes |
+---
+Browsers | Supported|
+|---| ---|
+| Google Chrome | Yes |
+| Safari | Yes |
+| Firefox | Yes |
+| Mircosoft Edge | Yes |
+---
 
 ## Deployment
 
@@ -279,4 +314,4 @@ ___
 
 #### __API was used from [Open Trivia](https://opentdb.com/api_config.php).__
 
-
+#### __CDN was used from [jsDelivr](https://www.jsdelivr.com/package/npm/he). This was used to encode and decode issues with the questions and answers__
